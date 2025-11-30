@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XIDZsWRT</title>
+    <link rel="stylesheet" href="../css/x.css">
+</head>
+<body>
+    <header>
+        <h1 class="title-header">XIDZsWRT</h1>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="main-content" id="mainContent">
+        <div class="welcome-section">
+            <div class="welcome-title">Selamat Datang Di XIDZsWRT</div>
+            <div class="welcome-description">
+                Nikmati firmware custom base openwrt | immortalwrt dengan berbagai fitur-fitur menarik dan customisasi...
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-grid">
+                <div class="info-display" id="ipDisplay">
+                    <div class="label">IP Address</div>
+                    <div class="value" id="ipValue">Loading...</div>
+                </div>
+
+                <div class="info-display" id="countryDisplay">
+                    <div class="label">Country</div>
+                    <div class="value" id="countryValue">Loading...</div>
+                </div>
+
+                <div class="info-display" id="cityDisplay">
+                    <div class="label">City</div>
+                    <div class="value" id="cityValue">Loading...</div>
+                </div>
+
+                <div class="info-display provider-display" id="providerDisplay">
+                    <div class="label">Provider</div>
+                    <div class="value" id="providerValue">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <div class="action-button" id="downloadBtn">
+                <div class="text">Download</div>
+            </div>
+        </div>
+
+        <div class="expandable-button">
+            <div class="action-button" id="previewBtn">
+                <div class="text">Preview</div>
+            </div>
+        </div>
+        <div class="content-section" id="previewContent"></div>
+
+        <div class="expandable-button">
+            <div class="action-button" id="devicesBtn">
+                <div class="text">List-Devices</div>
+            </div>
+        </div>
+        <div class="content-section" id="devicesContent"></div>
+
+        <div class="expandable-button">
+            <div class="action-button" id="featuresBtn">
+                <div class="text">Fitur-Fitur</div>
+            </div>
+        </div>
+        <div class="content-section" id="featuresContent"></div>
+
+        <div class="expandable-button">
+            <div class="action-button" id="aboutBtn">
+                <div class="text">Tentang</div>
+            </div>
+        </div>
+        <div class="content-section" id="aboutContent"></div>
+
+        <div class="final-spacing"></div>
+    </div>
+
+    <footer>
+        <div class="footer-box">
+            <div class="footer-text">
+                <span class="copyright">© XIDZsWRT</span>
+                <span class="divider">|</span>
+                <span class="country">INDONESIA</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="side-menu" id="sideMenu">
+        <ul class="side-menu-grid">
+            <li><a href="https://downloads.openwrt.org/" target="_blank">OpenWrt Update</a></li>
+            <li><a href="https://downloads.immortalwrt.org/" target="_blank">ImmortalWrt Update</a></li>
+            <li><a href="https://www.speedtest.net/" target="_blank">Speedtest-Ookla</a></li>
+            <li><a href="https://fast.com/id/" target="_blank">Speedtest-Fast</a></li>
+            <li><a href="https://www.cbn.id/id/speed-test/" target="_blank">Speedtest-CBN</a></li>
+            <li><a href="https://browserleaks.com/dns/" target="_blank">DnsLeaks-Test</a></li>
+            <li><a href="https://dnscheck.tools/" target="_blank">Dns-Test</a></li>
+            <li><a href="https://ash-speed.hetzner.com/" target="_blank">Download-Test</a></li>
+            <li><a href="https://adblock.turtlecute.org/" target="_blank">Adblock-Test</a></li>
+            <li><a href="https://github.com/ophub/kernel" target="_blank">Ophub Kernel</a></li>
+            <li><a href="https://dl.openwrt.ai" target="_blank">Repo Openwrt.ai</a></li>
+            <li><a href="https://github.com/vernesong/OpenClash/releases" target="_blank">Openclash</a></li>
+            <li><a href="https://github.com/de-quenx/Openclash-x/releases" target="_blank">Openclash Mod</a></li>
+            <li><a href="https://github.com/nikkinikki-org/OpenWrt-nikki/releases" target="_blank">Nikki</a></li>
+            <li><a href="https://github.com/de-quenx/nikki-x/releases" target="_blank">Nikki Mod</a></li>
+            <li><a href="https://github.com/xiaorouji/openwrt-passwall/releases" target="_blank">Passwall</a></li>
+            <li><a href="https://github.com/nosignals/openwrt-neko/releases" target="_blank">NekoClash</a></li>
+            <li><a href="https://github.com/bobbyunknown/Openwrt-Insomclash/releases" target="_blank">InsomClash</a></li>
+            <li><a href="https://github.com/nikkinikki-org/OpenWrt-momo/releases" target="_blank">OpenWrt-Momo</a></li>
+        </ul>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img src="" alt="" class="lightbox-image" id="lightboxImage">
+            <div class="lightbox-title" id="lightboxTitle"></div>
+        </div>
+    </div>
+
+    <script src="../js/x.js"></script>
+</body>
+</html>
